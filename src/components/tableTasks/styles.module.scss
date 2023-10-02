@@ -1,0 +1,53 @@
+/* Estilos para a tabela */
+.tabletasks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  thead {
+    background-color: #454fb2;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+  td {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Estilos para linhas alternadas (opcional) */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .options {
+    cursor: pointer;
+    margin: 0 10px;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+
+  .holyday {
+    td {
+      text-color: red;
+    }
+  
+  }
